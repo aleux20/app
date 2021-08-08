@@ -1,0 +1,28 @@
+$secondary-color: #eee;
+$font: 1em;
+
+/* HeroDetailComponent's private CSS styles */
+label {
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: $font;
+  padding: 0.5rem;
+}
+button {
+  margin-top: 20px;
+  background-color: $secondary-color;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: $font;
+
+  &:hover {
+    background-color: #cfd8dc;
+  }
+  &:disabled {
+    background-color: $secondary-color;
+    color: #ccc;
+    cursor: auto;
+  }
+}
